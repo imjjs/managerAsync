@@ -1,0 +1,30 @@
+07/16/2016 04:32:52 PM - INFO - simulation_service - <module> -line 52 - thread 140395958048576 - #############################################################################
+07/16/2016 04:32:52 PM - INFO - simulation_service - __init__ -line 18 - thread 140395958048576 - Initializing simulation service ...
+07/16/2016 04:32:52 PM - INFO - dddas_manager - initialize -line 24 - thread 140395958048576 - Initializing System Manager ...
+07/16/2016 04:32:52 PM - INFO - dddas_manager - createContainerManager -line 56 - thread 140395958048576 - Creating Container Manager of type: SHIPYARD ...
+07/16/2016 04:32:52 PM - INFO - dddas_manager - initialize -line 29 - thread 140395958048576 - Refreshing the host list:  ...
+07/16/2016 04:32:52 PM - INFO - container_manager - refreshHosts -line 106 - thread 140395958048576 - Refreshing Docker host list ...
+07/16/2016 04:32:52 PM - INFO - connectionpool - _new_conn -line 207 - thread 140395958048576 - Starting new HTTP connection (1): 10.2.109.8
+07/16/2016 04:32:52 PM - DEBUG - connectionpool - _make_request -line 387 - thread 140395958048576 - "GET /api/nodes HTTP/1.1" 200 909
+07/16/2016 04:32:52 PM - DEBUG - auth - load_config -line 189 - thread 140395958048576 - File doesn't exist
+07/16/2016 04:32:52 PM - DEBUG - auth - load_config -line 189 - thread 140395958048576 - File doesn't exist
+07/16/2016 04:32:52 PM - INFO - resource_manager_simple - initializeCluster -line 65 - thread 140395958048576 - The available hosts are: {u'docker-host-0275668d-1552-4adb-b590-03f8b607be75': {'sims': {}, 'status': 'NA', 'avail_capacity': 2.0, 'capacity': 2.0, 'cpu_capacity': 4, 'hostname': u'docker-host-0275668d-1552-4adb-b590-03f8b607be75', 'memory_capacity': 0, 'assigned': False, 'client': <docker.client.Client object at 0x7fb076e1b0d0>, 'type': 'LXC', 'id': u'docker-host-0275668d-1552-4adb-b590-03f8b607be75', 'resource_uri': u'10.2.109.5:2375'}, u'docker-host-84ef0ca6-f55e-43ea-8aa3-d6e2ad387370': {'sims': {}, 'status': 'NA', 'avail_capacity': 2.0, 'capacity': 2.0, 'cpu_capacity': 4, 'hostname': u'docker-host-84ef0ca6-f55e-43ea-8aa3-d6e2ad387370', 'memory_capacity': 0, 'assigned': False, 'client': <docker.client.Client object at 0x7fb076e10b90>, 'type': 'LXC', 'id': u'docker-host-84ef0ca6-f55e-43ea-8aa3-d6e2ad387370', 'resource_uri': u'10.2.109.7:2375'}}
+07/16/2016 04:32:52 PM - INFO - simulation_manager - __init__ -line 62 - thread 140395958048576 - valid sims: FIVE_ROOM,SUMO_TRAFFIC,SUMO_OPTIMIZATION
+07/16/2016 04:32:52 PM - INFO - _cplogging - error -line 216 - thread 140395958048576 - [16/Jul/2016:16:32:52] ENGINE Listening for SIGHUP.
+07/16/2016 04:32:52 PM - INFO - _cplogging - error -line 216 - thread 140395958048576 - [16/Jul/2016:16:32:52] ENGINE Listening for SIGTERM.
+07/16/2016 04:32:52 PM - INFO - _cplogging - error -line 216 - thread 140395958048576 - [16/Jul/2016:16:32:52] ENGINE Listening for SIGUSR1.
+07/16/2016 04:32:52 PM - INFO - _cplogging - error -line 216 - thread 140395958048576 - [16/Jul/2016:16:32:52] ENGINE Bus STARTING
+07/16/2016 04:32:52 PM - INFO - _cplogging - error -line 216 - thread 140395958048576 - [16/Jul/2016:16:32:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+07/16/2016 04:32:52 PM - INFO - _cplogging - error -line 216 - thread 140395958048576 - [16/Jul/2016:16:32:52] ENGINE Started monitor thread 'Autoreloader'.
+07/16/2016 04:32:52 PM - INFO - _cplogging - error -line 216 - thread 140395958048576 - [16/Jul/2016:16:32:52] ENGINE Serving on http://0.0.0.0:9999
+07/16/2016 04:32:52 PM - INFO - _cplogging - error -line 216 - thread 140395958048576 - [16/Jul/2016:16:32:52] ENGINE Bus STARTED
+07/16/2016 04:36:47 PM - INFO - _cplogging - error -line 216 - thread 140395876873984 - [16/Jul/2016:16:36:47] ENGINE Restarting because /home/ubuntu/manager/simulation_service.py changed.
+07/16/2016 04:36:47 PM - INFO - _cplogging - error -line 216 - thread 140395876873984 - [16/Jul/2016:16:36:47] ENGINE Stopped thread 'Autoreloader'.
+07/16/2016 04:36:47 PM - INFO - _cplogging - error -line 216 - thread 140395876873984 - [16/Jul/2016:16:36:47] ENGINE Bus STOPPING
+07/16/2016 04:36:47 PM - INFO - _cplogging - error -line 216 - thread 140395876873984 - [16/Jul/2016:16:36:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9999)) shut down
+07/16/2016 04:36:47 PM - INFO - _cplogging - error -line 216 - thread 140395876873984 - [16/Jul/2016:16:36:47] ENGINE Stopped thread '_TimeoutMonitor'.
+07/16/2016 04:36:47 PM - INFO - _cplogging - error -line 216 - thread 140395876873984 - [16/Jul/2016:16:36:47] ENGINE Bus STOPPED
+07/16/2016 04:36:47 PM - INFO - _cplogging - error -line 216 - thread 140395876873984 - [16/Jul/2016:16:36:47] ENGINE Bus EXITING
+07/16/2016 04:36:47 PM - INFO - _cplogging - error -line 216 - thread 140395876873984 - [16/Jul/2016:16:36:47] ENGINE Bus EXITED
+07/16/2016 04:36:48 PM - INFO - _cplogging - error -line 216 - thread 140395958048576 - [16/Jul/2016:16:36:48] ENGINE Waiting for child threads to terminate...
+07/16/2016 04:36:48 PM - INFO - _cplogging - error -line 216 - thread 140395958048576 - [16/Jul/2016:16:36:48] ENGINE Re-spawning simulation_service.py
