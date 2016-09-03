@@ -226,7 +226,7 @@ class OptimizationSimulation(Simulation):
 		##################################
 		self.pick_mark = 0
 		self.rand_pick = False
-		self.adaptive = False
+		self.adaptive = True
 		self.K0 = 12
 		self.T = 0
 		self.dim = 18
@@ -248,8 +248,9 @@ class OptimizationSimulation(Simulation):
 		self.directions_count = []
 		##################################
 		tmp = []
+                #tmp = [1,1,6,4,3,2,1,1,5,3,1,2,2,1,2,2,1,0]
 		for i in range(self.dim):
-			tmp.append(self.range[1] - 1)
+			tmp.append(self.range[1] -1)
 			self.directions.append(-1)
 			self.directions_outcome.append(-5.0)
 			self.directions_count.append(0)
@@ -349,8 +350,8 @@ class OptimizationSimulation(Simulation):
 	def createTask(self, last_task_id, results):
 		last_task = self.tasks.get(last_task_id)
 		input_params = last_task.input_params
-		print (
-			"received: taskid: " + str(last_task_id) + " input: " + str(input_params) + " output: " + results)
+		a = "received: taskid: " + str(last_task_id) + " input: " + str(input_params) + " output: " + results
+		print a
 		ret = ast.literal_eval(results)
 		updated = ret[0]
 		param = ret[1]
@@ -368,7 +369,7 @@ class OptimizationSimulation(Simulation):
 				self.result = result
 				self.T = 0
 				print "found new sub-optimal solution:", updated, param
-
+			self.timeLine.write(a + '\n')
 			if self.numParams == self.directions_count[updated]:  #last updated
 				assert self.directions[updated] != -1
 				tmp = list(self.params)
